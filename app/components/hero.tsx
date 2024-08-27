@@ -51,8 +51,9 @@ export default function Hero() {
               Discover the Best Music
             </h1>
             <p className="max-w-[600px] text-primary-foreground/80 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              <b>"The Show"</b> by <b>Ganyos</b> is now streaming on all
-              platforms
+              <span className="font-bold text-2xl">The Show</span> by{" "}
+              <span className="font-bold text-2xl">Ganyos</span> is now
+              streaming on all platforms
             </p>
             <div className="flex items-center space-x-4 hover:scale-110 duration-150">
               <Link
